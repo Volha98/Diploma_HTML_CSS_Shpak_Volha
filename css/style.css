@@ -1,23 +1,28 @@
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
 }
 header {
     display: flex;
     background-color: #E5E5E5;
     font-family: 'Varela Round', sans-serif;
+    justify-content: space-between;
 }
 .header__logo {
-    margin-left: 40px;
     margin-top: 40px;
+    margin-left: 40px;
 }
 .nav {
-padding-left: 350px;
 padding-top: 45px;
+padding-left: 100px;
 }
 .list li {
-    list-style-type: none;
-    display: inline;
+    display: inline-block;
     padding-right: 30px;
     font-size: 16px; 
 }
@@ -26,8 +31,8 @@ padding-top: 45px;
     color:#1D293F;
 }
 .header__button {
-    margin-left: 290px;
     margin-top: 20px;
+    margin-right: 20px;
     background-color: #258AFF;
     border-radius: 5px;
     width: 170px;
@@ -406,7 +411,7 @@ color: #1D293F;
     justify-content: center;
 }
 .work-with-instapoint-container__steps-with-description {
-    flex-basis: 350px;
+    margin-left: 100px;
 }
 .icon-square-first-column {
     display: flex;
@@ -423,7 +428,7 @@ color: #1D293F;
     height: 150px;
     background: url("../img/Arrow.png") no-repeat center;
     position: absolute;
-    left: 50px;
+    left: 70px;
 }
 .work-with-instapoint-container__steps-with-description h2 {
     font-size: 24px;
@@ -451,7 +456,8 @@ color: #1D293F;
     height: 150px;
     background: url("../img/Arrow2.png") no-repeat center;
     position: absolute;
-    left: 60px;
+    left: 70px;
+    top: -10px;
 }
 .icon-square-third-column {
     display: flex;
@@ -463,7 +469,7 @@ color: #1D293F;
     margin-top: 220px;
 }
 .control-container {
-    padding-top: 120px;
+    padding-top: 150px;
 }
 .control-container__text h2 {
     color: #1D293F;
@@ -685,7 +691,7 @@ color: #1D293F;
 .grow-business__text h2 {
     color: #1D293F;
     font-size: 58px;
-    width: 400px;
+    width: 450px;
     padding-top: 25px;
     padding-left: 60px;
 }
@@ -759,7 +765,7 @@ color: #1D293F;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 7px;
-    flex-basis: 500px;
+    flex-basis: 550px;
     position: relative;
     z-index: 0;
 }
@@ -918,7 +924,7 @@ color: #1D293F;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 15px;
-    flex-basis: 500px;
+    flex-basis: 600px;
     position: relative;
     z-index: 0;
 }
@@ -1040,7 +1046,8 @@ color: #1D293F;
     top: 538px;
 }
 .meeting-with-clients__text {
-    flex-basis: 500px;
+    flex-basis: 480px;
+    padding-top: 20px;
 }
 .meeting-with-clients__para-first,
 .meeting-with-clients__para-second {
@@ -1086,14 +1093,14 @@ color: #1D293F;
     display: inline-block;
     border-radius: 50%;
     background: #E9F7FE url("../img/heart2.png") no-repeat center;
-    margin-left: 170px;
+    margin-left: 200px;
     margin-bottom: 50px;
 }
 .scroll-box__text h3 {
     color: #1D293F;
     font-size: 58px;
     width: 600px;
-    margin-left: 170px;
+    margin-left: 200px;
 }
 .scroll-box__text-and-arrows {
     display: flex;
@@ -1110,7 +1117,7 @@ color: #1D293F;
   cursor: pointer;
   top: 45px;
 }
-.scroll-box__arrow-left:after {
+.scroll-box__arrow-left::after {
     content: "";
     display: inline-block;
     width: 12px;
@@ -1121,9 +1128,9 @@ color: #1D293F;
     margin-top: 13px;
     transform: rotate(130deg);
 }
-.scroll-box__arrow-right:after {
+.scroll-box__arrow-right::after {
   content: "";
-  display:inline-block;
+  display: inline-block;
   width: 12px;
   height: 12px;
   border-bottom: 3px solid #258AFF;
@@ -1141,7 +1148,7 @@ color: #1D293F;
 .scroll-box__for-scroll {
     width: 1000px;
     height: 300px;
-    margin-left: 170px;
+    margin-left: 200px;
 }
 .scroll-box__column-with-comments {
     width: 280px;
@@ -1270,7 +1277,6 @@ color: #1D293F;
     padding-top: 20px;
 }
 .footer__items li {
-    list-style-type: none;
     font-size: 16px;
     padding-top: 20px;
 }
