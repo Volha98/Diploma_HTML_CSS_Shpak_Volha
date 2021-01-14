@@ -34,9 +34,7 @@ padding-left: 100px;
     text-decoration: none;
     color:#1D293F;
 }
-.header__button {
-    margin-top: 20px;
-    margin-right: 20px;
+.button {
     background-color: #258AFF;
     border-radius: 5px;
     width: 170px;
@@ -47,6 +45,10 @@ padding-left: 100px;
     font-family: 'Varela Round', sans-serif;
     font-weight: 500;
     line-height: 20px;
+}
+.header__button {
+    margin-top: 20px;
+    margin-right: 20px;
 }
 .title {
     display: flex;
@@ -73,15 +75,6 @@ padding-left: 100px;
 }
 .title__button {
     margin-top: 30px;
-    background-color: #258AFF;
-    border-radius: 5px;
-    width: 170px;
-    height: 50px;
-    color: #FFFFFF;
-    border-color: #258AFF;
-    font-size: 16px;
-    font-family: 'Varela Round', sans-serif;
-    line-height: 20px;
 }
 .title__text-video-link {
     font-size: 16px;
@@ -758,15 +751,6 @@ line-height: 32px;
     padding-bottom: 10px;
 }
 .meeting-with-clients__button {
-    background-color: #258AFF;
-    border-radius: 5px;
-    width: 170px;
-    height: 50px;
-    color: #FFFFFF;
-    border-color: #258AFF;
-    font-size: 16px;
-    line-height: 20px;
-    font-family: 'Varela Round', sans-serif;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -966,14 +950,6 @@ line-height: 32px;
 .manage-clienets__button {
     margin-left: 670px;
     margin-top: 50px;
-    background-color: #258AFF;
-    border-radius: 5px;
-    width: 170px;
-    height: 50px;
-    color: #FFFFFF;
-    border-color: #258AFF;
-    font-size: 16px;
-    font-family: 'Varela Round', sans-serif;
 }
 .footer {
     background: #E5E5E5;
@@ -1030,14 +1006,6 @@ line-height: 32px;
     font-family: 'Varela Round', sans-serif;
 }
 .mail-and-button__button {
-    background-color: #258AFF;
-    border-radius: 5px;
-    width: 170px;
-    height: 50px;
-    color: #FFFFFF;
-    border-color: #258AFF;
-    font-size: 16px;
-    font-family: 'Varela Round', sans-serif;
     position: relative;
     top: -85px;
     left: 195px;
