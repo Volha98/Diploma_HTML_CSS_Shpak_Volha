@@ -523,12 +523,10 @@ line-height: 32px;
     transform: rotate(-45deg);
 }
 .control-container__circles {
-    display: flex;
     width: 180px;
     height: 200px;
     background: url("../img/dots2.png") no-repeat center;
     position: relative;
-    z-index: 0;
     top: -503px;
     left: 250px;
 }
